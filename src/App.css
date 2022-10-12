@@ -1,7 +1,8 @@
 /* Box sizing rules */
 * {
   box-sizing: border-box;
-  font-family: inter;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 /* Remove default margin */
@@ -48,9 +49,8 @@ select {
   font: inherit;
 }
 
-
-.nav-bar{
-  width:100vw;
+.nav-bar {
+  width: 100vw;
   height: 70px;
   justify-content: center;
   display: flex;
@@ -61,4 +61,36 @@ select {
 .logo {
   height: 25.35px;
   width: 82.02px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.hero--grid {
+  width: 395.91px;
+  height: 232px;
+  margin: 30px 0px;
+}
+
+.hero--info {
+  align-self: flex-start;
+  padding-left: 36px;
+}
+
+.hero--title {
+  font-size: 36px;
+  max-width: 347px;
+  /* line-height: 110%; */
+}
+
+.hero--subtitle {
+  max-width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
 }
