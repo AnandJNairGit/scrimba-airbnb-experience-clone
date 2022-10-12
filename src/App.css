@@ -48,9 +48,8 @@ select {
   font: inherit;
 }
 
-
-.nav-bar{
-  width:100vw;
+.nav-bar {
+  width: 100vw;
   height: 70px;
   justify-content: center;
   display: flex;
@@ -61,4 +60,18 @@ select {
 .logo {
   height: 25.35px;
   width: 82.02px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+
+}
+
+.hero--grid {
+  width: 395.91px;
+  height: 232px;
 }
