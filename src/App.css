@@ -1,7 +1,7 @@
 /* Box sizing rules */
 * {
   box-sizing: border-box;
-  font-family: inter;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Remove default margin */
